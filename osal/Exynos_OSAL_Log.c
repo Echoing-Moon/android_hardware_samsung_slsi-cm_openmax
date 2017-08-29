@@ -28,6 +28,8 @@
 
 #include "Exynos_OSAL_Log.h"
 
+#define __android_log_vprint(...) 
+
 
 void _Exynos_OSAL_Log(EXYNOS_LOG_LEVEL logLevel, const char *tag, const char *msg, ...)
 {
